@@ -13,12 +13,16 @@ body{
     background-attachment: fixed;
     overflow: hidden;
 }
+
+
+
 .wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: rgba(39, 39, 39, 0.4);
+    background-size:cover ;
 }
 .nav{
     position: fixed;
@@ -79,6 +83,8 @@ body{
     
 }
 
+
+
 @media only screen and (max-width: 786px){
     .nav-button{
         display: none;
@@ -117,3 +123,4 @@ body{
         background: rgba(255, 255, 255, 0.15);
     }
 }
+
