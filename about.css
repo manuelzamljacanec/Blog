@@ -43,7 +43,7 @@ body{
     list-style-type: none;
 }
 .nav-menu ul li .link{
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: 500;
     color: #fff;
     padding-bottom: 15px;
@@ -62,11 +62,14 @@ body{
     transform: scaleX(0);
     transition: transform 0.3s ease;
     transform-origin: bottom right;
+    border-bottom: 2px solid white;
+    text-decoration: underline;
 }
 .link:hover::after,
 .link.active::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+    text-decoration: underline;
 }
 .nav-button .btn{
     width: 130px;
